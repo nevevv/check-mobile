@@ -48,7 +48,7 @@
     font-size: 20px;
     text-align: center;
     background: #168B78;
-    border-radius: 56px;
+    border-radius: 25px;
     color: #FFFFFF;
     max-width: 680px;
     padding: 10px;
@@ -117,7 +117,7 @@
     transform: translateY(-300vh) translateX(-50%);
     background: #168B78;
     mix-blend-mode: normal;
-    border-radius: 56px;
+    border-radius: 25px;
     padding: 15px 25px;
     transition: all .5s;
     overflow: hidden;
@@ -170,7 +170,7 @@ button {
     display: block;
     margin: 0 auto;
     background: #FFFFFF;
-    border-radius: 56px;
+    border-radius: 15px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -179,8 +179,19 @@ button {
     margin-top: 0px;
 }
 
+.question-img {
+    width: 55px;
+    height: 55px;
+}
+
+.question-img img {
+    width: 20px;
+}
+
+
 
 @media(max-width:600px) {
+
     .header {
         gap: 40px;
     }
@@ -202,6 +213,28 @@ button {
 
     .photoBlock {
         gap: 30px;
+    }
+
+    .advise {
+        bottom: 22%;
+    }
+
+    .question-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .modal-bg {
+        top: 0;
+    }
+
+    .instruction-text {
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+    .question-img img {
+        width: 15px;
     }
 
     .advise p {
@@ -231,6 +264,8 @@ button {
         padding: 7px;
         margin-top: 26px;
     }
+
+
 }
 
 @media(max-width:420px) {
