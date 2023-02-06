@@ -5,8 +5,8 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-
 }
+
 
 .container {
     max-width: 1440px;
@@ -138,7 +138,7 @@
     color: #FFFFFF;
     max-width: 1000px;
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
     font-size: 40px;
     margin-bottom: 20px;
 
@@ -202,7 +202,6 @@ button {
 
     .photoBlock {
         gap: 30px;
-        transform: translateX(-16%);
     }
 
     .advise p {
@@ -235,18 +234,6 @@ button {
 }
 
 @media(max-width:420px) {
-
-    /* .camera-img {
-        width: 50px;
-        height: 50px;
-    }
-    .question-img {
-        width: 30px;
-        height: 30px;
-    }
-    .question-img img {
-        width: 10px;
-    } */
     button {
         line-height: 0;
         padding: 25px;
